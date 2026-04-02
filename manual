@@ -1,0 +1,69 @@
+# 📘 Logik-Handbuch: Markt-Frühwarnsystem (Top-Down)
+
+Dieses Dokument definiert die Parameter für das Top-Down-Bewertungstool. Es erklärt, warum wir bestimmte Metriken beobachten und welche Schwellenwerte als Warnsignale (Gefahrenzonen) gelten.
+
+---
+
+## 1. Makro-Ebene (Das Fundament)
+*Die Makro-Ebene bestimmt, ob das Marktumfeld "Risk-On" (Aufwind) oder "Risk-Off" (Gegenwind) ist.*
+
+### 1.1 10Y-2Y Yield Spread (Zinskurve)
+- **Warum:** Er misst die Differenz zwischen langfristigen und kurzfristigen Staatsanleihen. Eine Inversion (negativ) zeigt, dass der Markt eine Rezession erwartet.
+- **Divergenz/Warnsignal:** Die **"Disinversion"**. Wenn die Kurve nach einer Inversion schnell wieder über 0 steigt, ist das das klassische Signal, dass die Rezession *jetzt* beginnt.
+
+### 1.2 US-Realzins (10Y TIPS)
+- **Warum:** Die Rendite minus Inflationserwartung. Zeigt die "echten" Kosten von Kapital.
+- **Divergenz/Warnsignal:** **Werte > 2,0%**. Hohe Realzinsen machen Aktien (vor allem Tech) unattraktiv, da man für "sicheres Geld" bereits eine hohe Kaufkraft-Rendite erhält.
+
+### 1.3 Ölpreis (Brent)
+- **Warum:** Der wichtigste Inflations- und Kostentreiber.
+- **Divergenz/Warnsignal:** Ein schneller Anstieg **über 100 $**. Dies wirkt wie eine globale Verbrauchssteuer und drückt sofort auf die Gewinnmargen fast aller S&P 500 Unternehmen.
+
+### 1.4 US-Dollar Index (DXY)
+- **Warum:** Der Dollar ist die globale Fluchtwährung. Ein starker Dollar entzieht dem Weltmarkt Liquidität.
+- **Divergenz/Warnsignal:** Ein steiler Aufwärtstrend des DXY ist meist korreliert mit fallenden Aktienkursen, da US-Multis weniger verdienen und Schwellenländer unter Druck geraten.
+
+---
+
+## 2. Index-Ebene (Markt-Internals)
+*Hier prüfen wir, ob die Indizes (S&P 500 & Nasdaq) auf einem gesunden Fundament stehen.*
+
+### 2.1 Marktbreite (% über 200-Tage-Linie)
+- **Warum:** Zeigt, wie viele Aktien den Trend stützen.
+- **Divergenz/Warnsignal:** **Bearische Divergenz.** Wenn der S&P 500 ein neues Hoch macht, aber der Prozentsatz der Aktien über ihrer 200-Tage-Linie sinkt. Das zeigt, dass die Rallye nur noch von wenigen Schwergewichten getragen wird ("Thin Market").
+
+### 2.2 Put/Call Ratio
+- **Warum:** Sentiment-Indikator. Misst die Gier (viele Calls) oder Angst (viele Puts).
+- **Divergenz/Warnsignal:** **Werte < 0,60.** Das bedeutet extreme Euphorie. Es ist niemand mehr übrig, der kaufen könnte, was das Risiko für einen plötzlichen Rücksetzer massiv erhöht.
+
+### 2.3 VIX (Angst-Barometer)
+- **Warum:** Misst die erwartete Volatilität.
+- **Divergenz/Warnsignal:** **Werte < 12.** Eine Phase extremer Sorglosigkeit. Märkte unterschätzen in diesem Bereich oft systematisch exogene Schocks.
+
+---
+
+## 3. Alternative Assets (Sensoren)
+*Gold und Bitcoin fungieren als spezialisierte Warnsignale für Systemstress und Liquidität.*
+
+### 3.1 Gold (Safe Haven Sensor)
+- **Logik:** Gold steigt normalerweise bei fallenden Zinsen.
+- **Divergenz/Warnsignal:** Wenn Gold steigt, während die Realzinsen *ebenfalls* steigen. Dies deutet auf massive Flucht in Sicherheit aufgrund geopolitischer Krisen oder eines Vertrauensverlusts in Papierwährungen hin.
+
+### 3.2 Bitcoin (Liquiditäts-Oszillator)
+- **Logik:** Bitcoin ist der "Kanarienvogel in der Kohlemine" für die globale Geldmenge (M2).
+- **Divergenz/Warnsignal:** Wenn der Nasdaq seitwärts tendiert, aber Bitcoin unter wichtige Supports bricht. BTC antizipiert oft Liquiditätsengpässe 1-2 Wochen vor dem Aktienmarkt.
+
+---
+
+## 4. Scoring & Gewichtung
+Um die aktuelle "Gefahrenzone" zu bestimmen, werden die Ebenen wie folgt gewichtet:
+
+1. **Makro (40%):** Bestimmt die langfristige Richtung.
+2. **Marktbreite (30%):** Bestimmt die Stabilität des Trends.
+3. **Sentiment (20%):** Hilft beim Timing (Antizyklik).
+4. **Alternative Assets (10%):** Fungieren als Bestätigungssignale.
+
+**Gesamt-Score Interpretation:**
+- **> 75:** Grünes Licht (Aggressiv investieren).
+- **50 - 75:** Gelbes Licht (Vorsicht, selektives Investieren, Stopps nachziehen).
+- **< 50:** Rotes Licht (Hohe Cash-Quote, Absicherungen/Hedges aufbauen).
