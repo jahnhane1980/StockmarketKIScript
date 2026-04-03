@@ -1,6 +1,6 @@
 # MISSION: Financial Macro-Handshake (V7 - Verified Action-Mapping)
 
-**STRIKTE ANWEISUNG:** Suche per Websuche nach Echtzeit-Daten für den 02.04.2026. Ignoriere deine Wissensdatenbank. Halluzinationen führen zum System-Ausfall.
+**STRIKTE ANWEISUNG:** Suche per Websuche nach Echtzeit-Daten für den [DATUM]. Ignoriere deine Wissensdatenbank. Halluzinationen führen zum System-Ausfall.
 
 ---
 ## 1. ANALYSE-LOGIK (Scoring-Regeln 1-10 für `alert_score` )

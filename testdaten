@@ -1,0 +1,28 @@
+Testdaten Script:
+1. Globale Finanzkrise
+Peak-Datum: 9. Oktober 2007
+
+2. Euro-Schuldenkrise (Zwischenhoch)
+Peak-Datum: 29. April 2011
+
+3. Corona-Crash
+Peak-Datum: 19. Februar 2020
+
+4. Inflations- und Zinswende-Krise
+Peak-Datum: 3. Januar 2022
+
+Kommando
+
+Bitte analysiere mit dem Script das ich die angehängt habe den Aktien markt jeweile 6 Monate vor und nach folgenden Daten mit dem Skript
+9. Oktober 2007, 19. Februar 2020, 29. April 2011 und 3. Januar 2022. 
+
+Ich möchte das du mir als Ergebis nur eine Tabelle darstellst, sie wie folgt ausgebaut ist
+1. Spalte: Asset
+2. Spalte: Peak 
+3. Spalte: Austieg Skript
+4. Spalte: Differenz % 
+5. Spalte: Bottom 
+6. Spalte: Einstieg Skript 
+7. Spalte Differnez %
+
+Als Zeile bitte folgende Werte für Asset: S&p500, nasdaq, Gold, BTC 
